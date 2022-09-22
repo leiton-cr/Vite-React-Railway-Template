@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/' element={<List></List>}></Route>
-          <Route path='/add'  element={<Add></Add>}></Route>
+          <Route path='./' element={<List></List>}></Route>
+          <Route path='./add'  element={<Add></Add>}></Route>
         </Routes>
       </Router>
     </div>
